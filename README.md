@@ -1,7 +1,7 @@
 # An-Analysis-of-Toxicity-and-Public-Concerns-on-LLMs
 Exploring how people perceive LLMs on social media through toxicity detection and concern analysis
 
-## 📄 Project Report
+## 📄 Project Details
 
 This repository includes a full report describing the data collection, preprocessing, modeling, and analysis of toxicity and public concerns around LLMs.
 
