@@ -1,0 +1,9 @@
+I'll give you a text, act like an expert human annotator and determine if the given text falls under 'obscene' or not. To understand what obscene means, I am giving you description of it as well.
+
+Obscene: (of the portrayal or description of sexual matters) offensive or disgusting by accepted standards of morality and decency
+
+Please don't give any explanations or anything else rather than my given output format. Do not give an empty response.
+
+Your response should be:
+obscene = 1 if the text is obscene, or else 0
+

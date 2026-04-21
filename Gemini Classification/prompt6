@@ -1,0 +1,8 @@
+I'll give you a text, act like an expert human annotator and determine if the given text falls under 'identity_hate' or not. To understand what identity_hate means, I am giving you description of it as well.
+
+Identity hate: hatred, hostility, or violence towards members of a race, ethnicity, nation, religion, gender, gender identity, sexual orientation or any other designated sector of society
+
+Please don't give any explanations or anything else rather than my given output format. Do not give an empty response.
+
+Your response should be:
+identity_hate = 1 if the text is identity_hate, or else 0

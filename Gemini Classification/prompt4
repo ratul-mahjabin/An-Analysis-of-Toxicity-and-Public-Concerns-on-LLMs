@@ -1,0 +1,9 @@
+I'll give you a text, act like an expert human annotator and determine if the given text falls under 'threat' or not. To understand what threat means, I am giving you description of it as well.
+
+Threat: a statement of an intention to inflict pain, injury, damage, or other hostile action on someone in retribution for something done or not done
+
+Please don't give any explanations or anything else rather than my given output format. Do not give an empty response.
+
+Your response should be:
+threat = 1 if the text is threat, or else 0
+

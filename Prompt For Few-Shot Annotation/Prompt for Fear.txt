@@ -1,0 +1,8 @@
+When you try to annotate the dataset you need to give the below prompt and two datasets [one is 'already_labeled.csv'(always fixed), and another one is 'sub_dataset_x.csv'] as input. Make sure you change 'x' in 'sub_dataset_x.csv' based on which subset you used. Save the given annotated dataset by ChatGPT (rename the dataset based on which subset you used e.g., "annotaed_subesetx.csv". 
+
+
+PROMPTS:
+
+Act like you are an expert human annotator. I'll give you the dataset named 'sub_dataset_x.csv', there is a column named 'fear?', and this column is empty now. Your job is to fill it with either '0' or '1' based on the comment on 'processed_text' column. We need to identify whether the tweet expresses any concern or fear. If it is fearful or concerning (the user expresses their concern or fear for ChatGPT like LLMs in the tweets) then put '1' on there if not put '0' there. Give me the updated csv file. Don't put like '1.0' or '0.0' (decimal). Do it very carefully. You must read each tweet in the  'processed_text' column and need to decide using your sense. I'll give you another dataset named 'already_labeled.csv', where we already label the tweets. First, go through the 'already_labeled.csv' and learn how to label tweets, and then do the classification in a similar way for 'sub_dataset_x.csv'. 
+
+

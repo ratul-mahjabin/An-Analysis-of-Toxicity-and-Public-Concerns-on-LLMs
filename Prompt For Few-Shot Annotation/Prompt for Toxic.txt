@@ -1,0 +1,23 @@
+When you tried to annotate the dataset you need to give the below prompt and two datasets [one is 'already_labeled.csv'(always fixed), and another one is 'sub_dataset_x.csv'] as input. Make sure you change 'x' in 'sub_dataset_x.csv' based on which subset you used. Save the given annotated dataset by ChatGPT (rename the dataset based on which subset you used e.g., "annotaed_subesetx.csv". 
+
+
+PROMPTS:
+
+Act like you are an expert human annotator. I'll give you the dataset named 'sub_dataset_x.csv', there are column named 'toxic', 'severe_toxic', 'obscene', 'threat', 'insult', and 'identity_hate', and these column are empty now. Your job is to fill it with either '0' or '1' based on the comment on 'processed_text' column. We need to identify whether the tweet is toxic or not. If it is under any of the below CATEGORY put '1' on there if not put '0' there. Give me the updated csv file. Do it very carefully.  I'll give you another dataset named 'already_labeled.csv', where we already label the tweets. First, go through the 'already_labeled.csv' and learn how to label tweets and then do the classification in the similar way for 'sub_dataset_x.csv'.
+
+
+CATEGORY:
+
+Toxic: very bad, unpleasant, or harmful
+
+Severe toxic: extremely bad and offensive
+
+Obscene: (of the portrayal or description of sexual matters) offensive or disgusting by accepted standards of morality and decency
+
+Threat: a statement of an intention to inflict pain, injury, damage, or other hostile action on someone in retribution for something done or not done
+
+Insult: speak to or treat with disrespect or scornful abuse
+
+Identity hate: hatred, hostility, or violence towards members of a race, ethnicity, nation, religion, gender, gender identity, sexual orientation or any other designated sector of society
+
+
